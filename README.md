@@ -579,4 +579,5 @@ If you use this tool, please cite the underlying tools used to generate the inpu
 
 ## License
 
-[Add license here, e.g. MIT, GPL-3.0]
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for details.
+
