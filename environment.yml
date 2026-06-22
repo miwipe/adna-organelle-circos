@@ -1,0 +1,24 @@
+name: adna-organelle-viz
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core command line tools
+  - bwa
+  - samtools
+  - bedtools
+  - angsd
+  - metadmg
+
+  # R and R packages needed by the visualization script
+  - r-base
+  - r-tidyverse
+  - r-circlize
+  - bioconductor-complexheatmap
+
+  # Useful for command-line R scripts and reproducibility
+  - r-optparse
+
